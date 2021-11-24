@@ -3,4 +3,70 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-05 {
+    padding: .5em;
+}
+.p-1 {
+    padding: 1em;
+}
+.w-30 {
+    width: 30%;
+}
+.w-40 {
+    width: 40%;
+}
+.text-center {
+    text-align: center;
+}
+.mx-auto {
+    margin: 0 auto;
+}
+.my-2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.f-15 {
+    font-size: 1.5em;
+}
+.f-2 {
+    font-size: 2em;
+}
+.active {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+
+#play-box {
+    background: #0ad;
+    color: white;
+    width: 250px;
+    height: 80px;
+    border-radius: .3em;
+}
+#play-btn {
+    background: #06d;
+    cursor: pointer;
+    border-radius: .5em;
+}
+#input {
+    background: #0cf8;
+    border: none;
+    border-radius: .3em;
+    width: 3em;
+    padding: .1em;
+    color: white;
+    outline: none;
 }
